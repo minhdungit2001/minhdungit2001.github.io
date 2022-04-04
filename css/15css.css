@@ -1,0 +1,73 @@
+sh2 {
+	color: #9b86b5;
+}
+#myresume {
+	color: #b06d7e;
+	background-color: #292224;
+	padding: 80px;
+	margin: 0px;
+	text-align: center;
+}
+nav {
+	background-color: #634a51;
+	overflow: hidden;    /* cai nav a nao ra ngoai thi khong hien */
+	display: block;		 /* xoay ngang nav a lai*/
+}
+
+nav a{
+	color: #3f424a;
+	padding: 14px 20px;
+	text-align: center;
+	text-decoration: none;			/*xoa nhung cai decor mac dinh. Vd nhu dau gach chan*/
+}
+nav a:hover{
+	background-color: #a7a5ad;
+	color: black;
+}
+.menuright{
+	float: right;					/*sap xep display thanh hang ngan*/
+}
+.menuleft{
+	float: left;
+}
+
+/*Sắp xếp flex - chia đôi màn hình web*/
+#flex_containts{
+	display: flex;
+}
+#flex_right{
+	flex: 30%;
+	background-color: #e8e5dc;
+}
+
+#flex_left{
+	flex: 70%;
+	background-color: white;
+	padding: 0px;
+}
+
+#table{
+	width: 50%;
+}
+#footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+#aHref{
+	color: white;
+	text-decoration: none;
+}
+
+@media(max-width: 800px){
+	#flex_containts{
+		flex-wrap: wrap;
+	}
+	#flex_left{
+		flex: 100%;
+	}
+	#flex_right{
+		flex: 100%;
+	}
+}

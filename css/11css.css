@@ -1,0 +1,32 @@
+sh2 {
+	color: #9b86b5;
+}
+#myresume {
+	color: #b06d7e;
+	background-color: #292224;
+	padding: 80px;
+	margin: 0px;
+	text-align: center;
+}
+nav {
+	background-color: #634a51;
+	overflow: hidden;    /* cai nav a nao ra ngoai thi khong hien */
+	display: block;		 /* xoay ngang nav a lai*/
+}
+
+nav a{
+	color: #b7b3c4;
+	padding: 14px 20px;
+	text-align: center;
+	text-decoration: none;			/*xoa nhung cai decor mac dinh. Vd nhu dau gach chan*/
+}
+nav a:hover{
+	background-color: #a7a5ad;
+	color: black;
+}
+.menuright{
+	float: right;					/*sap xep display thanh hang ngan*/
+}
+.menuleft{
+	float: left;
+}
