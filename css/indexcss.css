@@ -34,8 +34,8 @@ nav a:hover{
 	text-decoration: none;
 }
 footer{
-	background-color: #c29fd6;
-	padding: 2px 10px;
+	background-color: #dce6f5;
+	padding: 2px 10px 2px 10px;
 }
 footer p{
 	font-size: 130%;
@@ -49,17 +49,20 @@ footer a{
 	display: flex;
 }
 #flex_left{
-	flex: 30%;
-	background-color: white;
-	padding: 0px;
+	background-color: #f0f7fa;
+	flex: 40%;
+	padding: 10px;
 }
 #flex_right{
-	flex: 70%;
-	background-color: #e8e5dc;
+	flex: 60%;
+	background-color: #f2edf7;
 }
 #title2{
 	padding: 10px;
-	font-size: 200%;
+	margin: 0px;
+	font-size: 120%;
+	text-align: center;
+	background-color: #465687;
 }
 #online_course{
 	display: flex;
